@@ -1,2 +1,2 @@
 # mpwu-rn
-React Native version of MPWU application
+React Native version of MPWU application.
