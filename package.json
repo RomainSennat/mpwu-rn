@@ -1,9 +1,9 @@
 {
-  "name": "MPWU",
+  "name": "mpwu",
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "deploy": "react-native run-ios --device \"iPhone SE de Romain\"",
+    "deploy": "react-native run-ios --device \"iPhone 8 de Romain\"",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
@@ -11,8 +11,8 @@
     "generator-rn-toolbox": "^3.3.1",
     "global": "^4.3.2",
     "ios-deploy": "^1.9.2",
-    "react": "16.3.1",
-    "react-native": "0.55.4",
+    "react": "^16.6.3",
+    "react-native": "^0.57.0",
     "react-native-elements": "^0.19.1",
     "react-native-linear-gradient": "^2.4.0",
     "react-native-local-mongodb": "^2.1.0",
@@ -26,10 +26,13 @@
     "yo": "^2.0.2"
   },
   "devDependencies": {
+    "@babel/plugin-external-helpers": "^7.0.0",
     "babel-jest": "22.4.3",
-    "babel-preset-react-native": "4.0.0",
+    "babel-preset-react-native": "5.0.2",
     "jest": "22.4.3",
-    "react-test-renderer": "16.3.1"
+    "metro-react-native-babel-preset": "^0.50.0",
+    "react-test-renderer": "16.3.1",
+    "schedule": "0.4.0"
   },
   "jest": {
     "preset": "react-native"
