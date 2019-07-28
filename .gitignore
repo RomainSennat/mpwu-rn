@@ -36,7 +36,7 @@ node_modules/
 npm-debug.log
 yarn-error.log
 
-# BUCK
+# _BUCK
 buck-out/
 \.buckd/
 *.keystore
@@ -54,3 +54,6 @@ buck-out/
 
 # Bundle artifact
 *.jsbundle
+
+# CocoaPods
+/ios/Pods/
